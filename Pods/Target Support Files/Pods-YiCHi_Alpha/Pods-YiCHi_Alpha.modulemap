@@ -1,0 +1,6 @@
+framework module Pods_YiCHi_Alpha {
+  umbrella header "Pods-YiCHi_Alpha-umbrella.h"
+
+  export *
+  module * { export * }
+}

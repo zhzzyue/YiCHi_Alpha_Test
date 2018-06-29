@@ -7,14 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A26B129CB51B378D3F59B814 /* Pods_YiCHi_Alpha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB57197E093E196E76E5285 /* Pods_YiCHi_Alpha.framework */; };
+		EC436CCF1FD60C2100664B95 /* NearbyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC436CCE1FD60C2100664B95 /* NearbyLayout.swift */; };
+		EC436CD61FD6267500664B95 /* PhotoStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC436CD51FD6267500664B95 /* PhotoStreamViewController.swift */; };
+		EC5D1E2D1FD575AD00205F51 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D1E2C1FD575AD00205F51 /* Photo.swift */; };
+		EC5D1E321FD575BF00205F51 /* Photos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5D1E2F1FD575BE00205F51 /* Photos.xcassets */; };
+		EC5D1E341FD575BF00205F51 /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC5D1E311FD575BE00205F51 /* Photos.plist */; };
+		EC5D1E371FD575DF00205F51 /* AnnotatedPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D1E361FD575DF00205F51 /* AnnotatedPhotoCell.swift */; };
 		EC7755241FB8497900E1D0A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7755231FB8497900E1D0A0 /* AppDelegate.swift */; };
 		EC7755261FB8497900E1D0A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7755251FB8497900E1D0A0 /* ViewController.swift */; };
 		EC7755291FB8497900E1D0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7755271FB8497900E1D0A0 /* Main.storyboard */; };
 		EC77552B1FB8497900E1D0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC77552A1FB8497900E1D0A0 /* Assets.xcassets */; };
 		EC77552E1FB8497900E1D0A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC77552C1FB8497900E1D0A0 /* LaunchScreen.storyboard */; };
+		EC7755361FB8526700E1D0A0 /* NearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7755351FB8526700E1D0A0 /* NearbyViewController.swift */; };
+		EC7755381FB852D000E1D0A0 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7755371FB852D000E1D0A0 /* ChatsViewController.swift */; };
+		EC77553A1FB852DE00E1D0A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7755391FB852DE00E1D0A0 /* HomeViewController.swift */; };
+		EC77553C1FB852F000E1D0A0 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC77553B1FB852F000E1D0A0 /* CircleViewController.swift */; };
+		EC77553E1FB852F900E1D0A0 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC77553D1FB852F900E1D0A0 /* MineViewController.swift */; };
+		EC900B6B1FC8EB3D001A3389 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC900B6A1FC8EB3D001A3389 /* SignInViewController.swift */; };
+		EC900B6D1FC8F26D001A3389 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC900B6C1FC8F26D001A3389 /* SignUpViewController.swift */; };
+		EC900B6F1FCBCD35001A3389 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC900B6E1FCBCD35001A3389 /* GoogleService-Info.plist */; };
+		ECE10C8A1FE7C427005500B7 /* MainUITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE10C891FE7C427005500B7 /* MainUITabBarController.swift */; };
+		ECE10C8C1FE7DBCF005500B7 /* ChatHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE10C8B1FE7DBCF005500B7 /* ChatHomeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A47365DD140FF16CFD2E5226 /* Pods-YiCHi_Alpha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YiCHi_Alpha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YiCHi_Alpha/Pods-YiCHi_Alpha.debug.xcconfig"; sourceTree = "<group>"; };
+		DDB57197E093E196E76E5285 /* Pods_YiCHi_Alpha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YiCHi_Alpha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC436CCE1FD60C2100664B95 /* NearbyLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyLayout.swift; sourceTree = "<group>"; };
+		EC436CD51FD6267500664B95 /* PhotoStreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoStreamViewController.swift; sourceTree = "<group>"; };
+		EC5D1E2C1FD575AD00205F51 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		EC5D1E2F1FD575BE00205F51 /* Photos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Photos.xcassets; sourceTree = "<group>"; };
+		EC5D1E311FD575BE00205F51 /* Photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
+		EC5D1E361FD575DF00205F51 /* AnnotatedPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotatedPhotoCell.swift; sourceTree = "<group>"; };
 		EC7755201FB8497900E1D0A0 /* YiCHi_Alpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YiCHi_Alpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7755231FB8497900E1D0A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC7755251FB8497900E1D0A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +47,17 @@
 		EC77552A1FB8497900E1D0A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC77552D1FB8497900E1D0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC77552F1FB8497900E1D0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7755351FB8526700E1D0A0 /* NearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyViewController.swift; sourceTree = "<group>"; };
+		EC7755371FB852D000E1D0A0 /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		EC7755391FB852DE00E1D0A0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EC77553B1FB852F000E1D0A0 /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
+		EC77553D1FB852F900E1D0A0 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		EC900B6A1FC8EB3D001A3389 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		EC900B6C1FC8F26D001A3389 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EC900B6E1FCBCD35001A3389 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ECE10C891FE7C427005500B7 /* MainUITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUITabBarController.swift; sourceTree = "<group>"; };
+		ECE10C8B1FE7DBCF005500B7 /* ChatHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHomeTableViewCell.swift; sourceTree = "<group>"; };
+		EE9F86634D2C0A29D433EF1C /* Pods-YiCHi_Alpha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YiCHi_Alpha.release.xcconfig"; path = "Pods/Target Support Files/Pods-YiCHi_Alpha/Pods-YiCHi_Alpha.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +65,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A26B129CB51B378D3F59B814 /* Pods_YiCHi_Alpha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59FFD0726985D979C54BF22B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A47365DD140FF16CFD2E5226 /* Pods-YiCHi_Alpha.debug.xcconfig */,
+				EE9F86634D2C0A29D433EF1C /* Pods-YiCHi_Alpha.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F41916378C1A4E0064469B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDB57197E093E196E76E5285 /* Pods_YiCHi_Alpha.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC3EFA5A1FD5A98E003B7E79 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				EC436CCE1FD60C2100664B95 /* NearbyLayout.swift */,
+				ECE10C8B1FE7DBCF005500B7 /* ChatHomeTableViewCell.swift */,
+			);
+			name = Layouts;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EC5D1E2B1FD575AD00205F51 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC5D1E2C1FD575AD00205F51 /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC5D1E2E1FD575BE00205F51 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EC5D1E2F1FD575BE00205F51 /* Photos.xcassets */,
+				EC5D1E311FD575BE00205F51 /* Photos.plist */,
+			);
+			name = Assets;
+			path = ../../../Downloads/Starter_Project/Pinterest/Assets;
+			sourceTree = "<group>";
+		};
+		EC5D1E351FD575DF00205F51 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC5D1E361FD575DF00205F51 /* AnnotatedPhotoCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EC7755171FB8497900E1D0A0 = {
 			isa = PBXGroup;
 			children = (
 				EC7755221FB8497900E1D0A0 /* YiCHi_Alpha */,
+				EC5D1E2E1FD575BE00205F51 /* Assets */,
 				EC7755211FB8497900E1D0A0 /* Products */,
+				59FFD0726985D979C54BF22B /* Pods */,
+				7F41916378C1A4E0064469B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +148,42 @@
 			isa = PBXGroup;
 			children = (
 				EC7755231FB8497900E1D0A0 /* AppDelegate.swift */,
-				EC7755251FB8497900E1D0A0 /* ViewController.swift */,
-				EC7755271FB8497900E1D0A0 /* Main.storyboard */,
+				EC5D1E2B1FD575AD00205F51 /* Models */,
+				EC3EFA5A1FD5A98E003B7E79 /* Layouts */,
+				ECFA10A01FCC00AA001C58AE /* ViewControllers */,
+				EC5D1E351FD575DF00205F51 /* Views */,
+				ECFA109F1FCC0085001C58AE /* Storyboards */,
 				EC77552A1FB8497900E1D0A0 /* Assets.xcassets */,
-				EC77552C1FB8497900E1D0A0 /* LaunchScreen.storyboard */,
+				EC900B6E1FCBCD35001A3389 /* GoogleService-Info.plist */,
 				EC77552F1FB8497900E1D0A0 /* Info.plist */,
 			);
 			path = YiCHi_Alpha;
+			sourceTree = "<group>";
+		};
+		ECFA109F1FCC0085001C58AE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EC7755271FB8497900E1D0A0 /* Main.storyboard */,
+				EC77552C1FB8497900E1D0A0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		ECFA10A01FCC00AA001C58AE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC900B6A1FC8EB3D001A3389 /* SignInViewController.swift */,
+				EC900B6C1FC8F26D001A3389 /* SignUpViewController.swift */,
+				EC7755251FB8497900E1D0A0 /* ViewController.swift */,
+				ECE10C891FE7C427005500B7 /* MainUITabBarController.swift */,
+				EC7755351FB8526700E1D0A0 /* NearbyViewController.swift */,
+				EC7755371FB852D000E1D0A0 /* ChatsViewController.swift */,
+				EC7755391FB852DE00E1D0A0 /* HomeViewController.swift */,
+				EC77553B1FB852F000E1D0A0 /* CircleViewController.swift */,
+				EC77553D1FB852F900E1D0A0 /* MineViewController.swift */,
+				EC436CD51FD6267500664B95 /* PhotoStreamViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC7755321FB8497900E1D0A0 /* Build configuration list for PBXNativeTarget "YiCHi_Alpha" */;
 			buildPhases = (
+				40F16D4F8835B0E1230C76E6 /* [CP] Check Pods Manifest.lock */,
 				EC77551C1FB8497900E1D0A0 /* Sources */,
 				EC77551D1FB8497900E1D0A0 /* Frameworks */,
 				EC77551E1FB8497900E1D0A0 /* Resources */,
+				09E70DB37FE274BBC4FABC98 /* [CP] Embed Pods Frameworks */,
+				83114DCC375826A32F8901DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,20 +249,94 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC77552E1FB8497900E1D0A0 /* LaunchScreen.storyboard in Resources */,
+				EC900B6F1FCBCD35001A3389 /* GoogleService-Info.plist in Resources */,
+				EC5D1E341FD575BF00205F51 /* Photos.plist in Resources */,
 				EC77552B1FB8497900E1D0A0 /* Assets.xcassets in Resources */,
+				EC5D1E321FD575BF00205F51 /* Photos.xcassets in Resources */,
 				EC7755291FB8497900E1D0A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09E70DB37FE274BBC4FABC98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YiCHi_Alpha/Pods-YiCHi_Alpha-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YiCHi_Alpha/Pods-YiCHi_Alpha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40F16D4F8835B0E1230C76E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YiCHi_Alpha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83114DCC375826A32F8901DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YiCHi_Alpha/Pods-YiCHi_Alpha-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC77551C1FB8497900E1D0A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE10C8A1FE7C427005500B7 /* MainUITabBarController.swift in Sources */,
+				EC77553A1FB852DE00E1D0A0 /* HomeViewController.swift in Sources */,
 				EC7755261FB8497900E1D0A0 /* ViewController.swift in Sources */,
+				ECE10C8C1FE7DBCF005500B7 /* ChatHomeTableViewCell.swift in Sources */,
+				EC436CD61FD6267500664B95 /* PhotoStreamViewController.swift in Sources */,
+				EC77553C1FB852F000E1D0A0 /* CircleViewController.swift in Sources */,
+				EC77553E1FB852F900E1D0A0 /* MineViewController.swift in Sources */,
+				EC900B6B1FC8EB3D001A3389 /* SignInViewController.swift in Sources */,
 				EC7755241FB8497900E1D0A0 /* AppDelegate.swift in Sources */,
+				EC436CCF1FD60C2100664B95 /* NearbyLayout.swift in Sources */,
+				EC900B6D1FC8F26D001A3389 /* SignUpViewController.swift in Sources */,
+				EC5D1E371FD575DF00205F51 /* AnnotatedPhotoCell.swift in Sources */,
+				EC5D1E2D1FD575AD00205F51 /* Photo.swift in Sources */,
+				EC7755381FB852D000E1D0A0 /* ChatsViewController.swift in Sources */,
+				EC7755361FB8526700E1D0A0 /* NearbyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +471,13 @@
 		};
 		EC7755331FB8497900E1D0A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47365DD140FF16CFD2E5226 /* Pods-YiCHi_Alpha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W52F839DPH;
 				INFOPLIST_FILE = YiCHi_Alpha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YiQiFaner.YiCHi-Alpha";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +488,13 @@
 		};
 		EC7755341FB8497900E1D0A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE9F86634D2C0A29D433EF1C /* Pods-YiCHi_Alpha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W52F839DPH;
 				INFOPLIST_FILE = YiCHi_Alpha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YiQiFaner.YiCHi-Alpha";
 				PRODUCT_NAME = "$(TARGET_NAME)";
